@@ -1,0 +1,766 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>Getting started with piano</title>
+		<link rel="icon" type="image/gif/png" href="{% static 'affiliate/img/logo-alt.jpg' %}">
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="{% static 'affiliate/css/bootstrap.min.css' %}"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="{% static 'affiliate/css/font-awesome.min.css' %}">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="{% static 'affiliate/css/style.css' %}"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    </head>
+	<body>
+
+		<!-- Header -->
+		<header id="header" class="transparent-nav">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a class="logo" href="index.html">
+							<img src=".{% static 'affiliate/img/logo-alt.jpg'  %}" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Mobile toggle -->
+					<button class="navbar-toggle">
+						<span></span>
+					</button>
+					<!-- /Mobile toggle -->
+				</div>
+
+				<!-- Navigation -->
+				<nav id="nav">
+					<ul class="main-menu nav navbar-nav navbar-right">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Courses</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+				<!-- /Navigation -->
+
+			</div>
+		</header>
+		<!-- /Header -->
+
+		<!-- Home -->
+		<div id="home" class="hero-area">
+
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url({% static 'affiliate/img/home-background.jpg' %})"></div>
+			<!-- /Backgound Image -->
+
+			<div class="home-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+							<h1 class="white-text">Key guide to playing the piano as an adult</h1>
+							<p class="lead white-text">Looking to learn to play the piano as an adult but don't know where to start? Keep on reading to find out how others have done it, and how you can too!</p>
+							<a class="main-button icon-button" href="#">Get Started!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- /Home -->
+
+		<!-- About -->
+		<div id="about" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<div class="col-md-6">
+						<div class="section-header">
+							<h2>Learning to play the piano is a great decision</h2>
+							<p class="lead">Before anything we wanted to highlight what a great decision it is you're making!</p>
+						</div>
+
+						<!-- feature -->
+						<div class="feature">
+							<i class="feature-icon fa fa-heart"></i>
+							<div class="feature-content">
+								<h4>Health benefits</h4>
+								<p>Playing piano improves functioning and development of the brain! It sharpens fine motor skills, improves dexterity and hand-eye coordination. Music has also been shown to reduce heart and respiratory rates, cardiac complications, and to lower blood pressure and increase immune response. Playing the piano also makes your hands and arm muscles much stronger than the average person.</p>
+							</div>
+						</div>
+						<!-- /feature -->
+
+						<!-- feature -->
+						<div class="feature">
+							<i class="feature-icon fa fa-users"></i>
+							<div class="feature-content">
+								<h4>Social activity</h4>
+								<p>Making music is most fun when playing with other people, you can play with others even as a complete beginner! It is one of the most life enriching parts of playing an instrument, so we heavily encourage you to play with your friends or join a local jam session.</p>
+							</div>
+						</div>
+						<!-- /feature -->
+
+						<!-- feature -->
+						<div class="feature">
+							<i class="feature-icon fa fa-smile-o"></i>
+							<div class="feature-content">
+								<h4>Rewarding</h4>
+								<p>Although learning to play an instrument might seem a big mountain to climb, it can be rewarding every day. By having small milestones along the way, learning to play the piano will be especially rewarding and bring joy to your life!</p>
+							</div>
+						</div>
+						<!-- /feature -->
+
+					</div>
+
+					<div class="col-md-6">
+						<div class="about-img">
+							<img src="{% static 'affiliate/img/benefits.jpg' %}" alt="">
+						</div>
+					</div>
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- container -->
+		</div>
+		<!-- /About -->
+
+		<!-- How to -->
+		<div id="get_started" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<div class="col-md-6">
+						<div class="section-header">
+							<h2>How to get started quickly</h2>
+							<p class="lead">Get started with learning to play the piano in 3 easy steps</p>
+						</div>
+
+						<!-- feature -->
+						<div class="feature">
+							<i class="feature-icon fa fa-music"></i>
+							<div class="feature-content">
+								<h4>Get a piano</h4>
+								<p>Starting with the obvious. You will need to buy an instrument to play the instrument, but isn't it expensive? Doesn't have to be! But there are a few thing you need to keep in mind when buying a piano...</p>
+							</div>
+						</div>
+						<!-- /feature -->
+
+						<!-- feature -->
+						<div class="feature">
+							<i class="feature-icon fa fa-headphones"></i>
+							<div class="feature-content">
+								<h4>Periferals</h4>
+								<p>You will need some periferal devices in order to play propperly, depending on the kind of piano that you're buying. Getting these as soon as you buy your piano will improve your playing experience!</p>
+							</div>
+						</div>
+						<!-- /feature -->
+
+						<!-- feature -->
+						<div class="feature">
+							<i class="feature-icon fa fa-book"></i>
+							<div class="feature-content">
+								<h4>Choose your learning method!</h4>
+								<p>You may think that with learning to play the piano also comes the added cost of a piano teacher. Not True! There are various book methods and online courses which will help you to develop your piano skill for only a fraction of the price of a private teacher!</p>
+							</div>
+						</div>
+						<!-- /feature -->
+
+					</div>
+
+					<div class="col-md-6">
+						<div class="about-img">
+							<img src="{% static 'affiliate/img/get_started.jpg' %}" alt="">
+						</div>
+					</div>
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- container -->
+		</div>
+		<!-- /get_started -->
+
+
+		<!-- Products -->
+		<div id="products" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+					<div class="section-header text-center">
+						<h2>Piano options</h2>
+						<p class="lead">Below you will find a selection of digital pianos endorsed by us. All of these digital pianos have weighted keys, hammer action, and a nice range of piano sounds and more!</p>
+					</div>
+				</div>
+				<!-- /row -->
+
+				<!-- courses -->
+				<div id="courses-wrapper">
+
+					<!-- row -->
+					<div class="row">
+
+						<!-- single course -->
+						<div class="col-md-3 col-sm-6 col-xs-6">
+							<div class="course">
+								<a href="#" class="course-img">
+									<img src="{% static 'affiliate/img/course01.jpg' %}" alt="">
+									<i class="course-link-icon fa fa-link"></i>
+								</a>
+								<a class="course-title" href="#">Beginner to Pro in Excel: Financial Modeling and Valuation</a>
+								<div class="course-details">
+									<span class="course-category">Business</span>
+									<span class="course-price course-free">Free</span>
+								</div>
+							</div>
+						</div>
+						<!-- /single course -->
+
+						<!-- single course -->
+						<div class="col-md-3 col-sm-6 col-xs-6">
+							<div class="course">
+								<a href="#" class="course-img">
+									<img src="{% static 'affiliate/img/course02.jpg' %}" alt="">
+									<i class="course-link-icon fa fa-link"></i>
+								</a>
+								<a class="course-title" href="#">Introduction to CSS </a>
+								<div class="course-details">
+									<span class="course-category">Web Design</span>
+									<span class="course-price course-premium">Premium</span>
+								</div>
+							</div>
+						</div>
+						<!-- /single course -->
+
+						<!-- single course -->
+						<div class="col-md-3 col-sm-6 col-xs-6">
+							<div class="course">
+								<a href="#" class="course-img">
+									<img src="{% static 'affiliate/img/course03.jpg' %}" alt="">
+									<i class="course-link-icon fa fa-link"></i>
+								</a>
+								<a class="course-title" href="#">The Ultimate Drawing Course | From Beginner To Advanced</a>
+								<div class="course-details">
+									<span class="course-category">Drawing</span>
+									<span class="course-price course-premium">Premium</span>
+								</div>
+							</div>
+						</div>
+						<!-- /single course -->
+
+						<div class="col-md-3 col-sm-6 col-xs-6">
+							<div class="course">
+								<a href="#" class="course-img">
+									<img src="{% static 'affiliate/img/course04.jpg' %}" alt="">
+									<i class="course-link-icon fa fa-link"></i>
+								</a>
+								<a class="course-title" href="#">The Complete Web Development Course</a>
+								<div class="course-details">
+									<span class="course-category">Web Development</span>
+									<span class="course-price course-free">Free</span>
+								</div>
+							</div>
+						</div>
+						<!-- /single course -->
+
+					</div>
+					<!-- /row -->
+					<div class="row">
+						<div class="section-header text-center">
+							<h2>Find digital piano's expensive?</h2>
+							<p class="lead">Try these cheaper options. They do not offer the same kind of playing experience as the digital piano's above, but still give you the opportunity to play. Note that some of these options require you to own a laptop or pc!</p>
+						</div>
+					</div>
+					<!-- /row -->
+	
+					<!-- courses -->
+					<div id="courses-wrapper">
+	
+						<!-- row -->
+						<div class="row">
+	
+							<!-- single course -->
+							<div class="col-md-3 col-sm-6 col-xs-6">
+								<div class="course">
+									<a href="#" class="course-img">
+										<img src="{% static 'affiliate/img/course01.jpg' %}" alt="">
+										<i class="course-link-icon fa fa-link"></i>
+									</a>
+									<a class="course-title" href="#">Beginner to Pro in Excel: Financial Modeling and Valuation</a>
+									<div class="course-details">
+										<span class="course-category">Business</span>
+										<span class="course-price course-free">Free</span>
+									</div>
+								</div>
+							</div>
+							<!-- /single course -->
+	
+							<!-- single course -->
+							<div class="col-md-3 col-sm-6 col-xs-6">
+								<div class="course">
+									<a href="#" class="course-img">
+										<img src="{% static 'affiliate/img/course02.jpg' %}" alt="">
+										<i class="course-link-icon fa fa-link"></i>
+									</a>
+									<a class="course-title" href="#">Introduction to CSS </a>
+									<div class="course-details">
+										<span class="course-category">Web Design</span>
+										<span class="course-price course-premium">Premium</span>
+									</div>
+								</div>
+							</div>
+							<!-- /single course -->
+	
+							<!-- single course -->
+							<div class="col-md-3 col-sm-6 col-xs-6">
+								<div class="course">
+									<a href="#" class="course-img">
+										<img src="{% static 'affiliate/img/course03.jpg' %}" alt="">
+										<i class="course-link-icon fa fa-link"></i>
+									</a>
+									<a class="course-title" href="#">The Ultimate Drawing Course | From Beginner To Advanced</a>
+									<div class="course-details">
+										<span class="course-category">Drawing</span>
+										<span class="course-price course-premium">Premium</span>
+									</div>
+								</div>
+							</div>
+							<!-- /single course -->
+	
+							<div class="col-md-3 col-sm-6 col-xs-6">
+								<div class="course">
+									<a href="#" class="course-img">
+										<img src="{% static 'affiliate/img/course04.jpg' %}" alt="">
+										<i class="course-link-icon fa fa-link"></i>
+									</a>
+									<a class="course-title" href="#">The Complete Web Development Course</a>
+									<div class="course-details">
+										<span class="course-category">Web Development</span>
+										<span class="course-price course-free">Free</span>
+									</div>
+								</div>
+							</div>
+							<!-- /single course -->
+	
+						</div>
+						<!-- /row -->
+						<div class="row">
+							<div class="section-header text-center">
+								<h2>Periferal products</h2>
+								<p class="lead">Get your chair, pedal, bookstand, and more here!<p>
+							</div>
+						</div>
+						<!-- /row -->
+		
+						<!-- courses -->
+						<div id="courses-wrapper">
+		
+							<!-- row -->
+							<div class="row">
+		
+								<!-- single course -->
+								<div class="col-md-3 col-sm-6 col-xs-6">
+									<div class="course">
+										<a href="#" class="course-img">
+											<img src="{% static 'affiliate/img/course01.jpg' %}" alt="">
+											<i class="course-link-icon fa fa-link"></i>
+										</a>
+										<a class="course-title" href="#">Beginner to Pro in Excel: Financial Modeling and Valuation</a>
+										<div class="course-details">
+											<span class="course-category">Business</span>
+											<span class="course-price course-free">Free</span>
+										</div>
+									</div>
+								</div>
+								<!-- /single course -->
+		
+								<!-- single course -->
+								<div class="col-md-3 col-sm-6 col-xs-6">
+									<div class="course">
+										<a href="#" class="course-img">
+											<img src="{% static 'affiliate/img/course02.jpg' %}" alt="">
+											<i class="course-link-icon fa fa-link"></i>
+										</a>
+										<a class="course-title" href="#">Introduction to CSS </a>
+										<div class="course-details">
+											<span class="course-category">Web Design</span>
+											<span class="course-price course-premium">Premium</span>
+										</div>
+									</div>
+								</div>
+								<!-- /single course -->
+		
+								<!-- single course -->
+								<div class="col-md-3 col-sm-6 col-xs-6">
+									<div class="course">
+										<a href="#" class="course-img">
+											<img src="{% static 'affiliate/img/course03.jpg' %}" alt="">
+											<i class="course-link-icon fa fa-link"></i>
+										</a>
+										<a class="course-title" href="#">The Ultimate Drawing Course | From Beginner To Advanced</a>
+										<div class="course-details">
+											<span class="course-category">Drawing</span>
+											<span class="course-price course-premium">Premium</span>
+										</div>
+									</div>
+								</div>
+								<!-- /single course -->
+		
+								<div class="col-md-3 col-sm-6 col-xs-6">
+									<div class="course">
+										<a href="#" class="course-img">
+											<img src="{% static 'affiliate/img/course04.jpg' %}" alt="">
+											<i class="course-link-icon fa fa-link"></i>
+										</a>
+										<a class="course-title" href="#">The Complete Web Development Course</a>
+										<div class="course-details">
+											<span class="course-category">Web Development</span>
+											<span class="course-price course-free">Free</span>
+										</div>
+									</div>
+								</div>
+								<!-- /single course -->
+		
+							</div>
+							<!-- /row -->
+							<div class="row">
+								<div class="section-header text-center">
+									<h2>Learning methods</h2>
+									<p class="lead">These books will provide you with the basics you need for any style of playing.</p>
+								</div>
+							</div>
+							<!-- /row -->
+			
+							<!-- courses -->
+							<div id="courses-wrapper">
+			
+								<!-- row -->
+								<div class="row">
+			
+									<!-- single course -->
+									<div class="col-md-3 col-sm-6 col-xs-6">
+										<div class="course">
+											<a href="#" class="course-img">
+												<img src="{% static 'affiliate/img/course01.jpg' %}" alt="">
+												<i class="course-link-icon fa fa-link"></i>
+											</a>
+											<a class="course-title" href="#">Beginner to Pro in Excel: Financial Modeling and Valuation</a>
+											<div class="course-details">
+												<span class="course-category">Business</span>
+												<span class="course-price course-free">Free</span>
+											</div>
+										</div>
+									</div>
+									<!-- /single course -->
+			
+									<!-- single course -->
+									<div class="col-md-3 col-sm-6 col-xs-6">
+										<div class="course">
+											<a href="#" class="course-img">
+												<img src="{% static 'affiliate/img/course02.jpg' %}" alt="">
+												<i class="course-link-icon fa fa-link"></i>
+											</a>
+											<a class="course-title" href="#">Introduction to CSS </a>
+											<div class="course-details">
+												<span class="course-category">Web Design</span>
+												<span class="course-price course-premium">Premium</span>
+											</div>
+										</div>
+									</div>
+									<!-- /single course -->
+			
+									<!-- single course -->
+									<div class="col-md-3 col-sm-6 col-xs-6">
+										<div class="course">
+											<a href="#" class="course-img">
+												<img src="{% static 'affiliate/img/course03.jpg' %}" alt="">
+												<i class="course-link-icon fa fa-link"></i>
+											</a>
+											<a class="course-title" href="#">The Ultimate Drawing Course | From Beginner To Advanced</a>
+											<div class="course-details">
+												<span class="course-category">Drawing</span>
+												<span class="course-price course-premium">Premium</span>
+											</div>
+										</div>
+									</div>
+									<!-- /single course -->
+			
+									<div class="col-md-3 col-sm-6 col-xs-6">
+										<div class="course">
+											<a href="#" class="course-img">
+												<img src="{% static 'affiliate/img/course04.jpg' %}" alt="">
+												<i class="course-link-icon fa fa-link"></i>
+											</a>
+											<a class="course-title" href="#">The Complete Web Development Course</a>
+											<div class="course-details">
+												<span class="course-category">Web Development</span>
+												<span class="course-price course-free">Free</span>
+											</div>
+										</div>
+									</div>
+									<!-- /single course -->
+			
+								</div>
+								<!-- /row -->
+				</div>
+				<!-- /courses -->
+
+				<div class="row">
+					<div class="center-btn">
+						<a class="main-button icon-button" href="#">More Courses</a>
+					</div>
+				</div>
+
+			</div>
+			<!-- container -->
+
+		</div>
+		<!-- /Products -->
+
+		<!-- Call To Action -->
+		<div id="cta" class="section">
+
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/cta1-background.jpg)"></div>
+			<!-- /Backgound Image -->
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<div class="col-md-6">
+						<h2 class="white-text">Ceteros fuisset mei no, soleat epicurei adipiscing ne vis.</h2>
+						<p class="lead white-text">Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
+						<a class="main-button icon-button" href="#">Get Started!</a>
+					</div>
+
+				</div>
+				<!-- /row -->
+
+			</div>
+			<!-- /container -->
+
+		</div>
+		<!-- /Call To Action -->
+
+		<!-- Why us -->
+		<div id="why-us" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+					<div class="section-header text-center">
+						<h2>Why Edusite</h2>
+						<p class="lead">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant.</p>
+					</div>
+
+					<!-- feature -->
+					<div class="col-md-4">
+						<div class="feature">
+							<i class="feature-icon fa fa-flask"></i>
+							<div class="feature-content">
+								<h4>Online Courses</h4>
+								<p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
+							</div>
+						</div>
+					</div>
+					<!-- /feature -->
+
+					<!-- feature -->
+					<div class="col-md-4">
+						<div class="feature">
+							<i class="feature-icon fa fa-users"></i>
+							<div class="feature-content">
+								<h4>Expert Teachers</h4>
+								<p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
+							</div>
+						</div>
+					</div>
+					<!-- /feature -->
+
+					<!-- feature -->
+					<div class="col-md-4">
+						<div class="feature">
+							<i class="feature-icon fa fa-comments"></i>
+							<div class="feature-content">
+								<h4>Community</h4>
+								<p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
+							</div>
+						</div>
+					</div>
+					<!-- /feature -->
+
+				</div>
+				<!-- /row -->
+
+				<hr class="section-hr">
+
+				<!-- row -->
+				<div class="row">
+
+					<div class="col-md-6">
+						<h3>Persius imperdiet incorrupte et qui, munere nusquam et nec.</h3>
+						<p class="lead">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant.</p>
+						<p>No vel facete sententiae, quodsi dolores no quo, pri ex tamquam interesset necessitatibus. Te denique cotidieque delicatissimi sed. Eu doming epicurei duo. Sit ea perfecto deseruisse theophrastus. At sed malis hendrerit, elitr deseruisse in sit, sit ei facilisi mediocrem.</p>
+					</div>
+
+					<div class="col-md-5 col-md-offset-1">
+						<a class="about-video" href="#">
+							<img src="{% static 'affiliate/img/about-video.jpg' %}" alt="">
+							<i class="play-icon fa fa-play"></i>
+						</a>
+					</div>
+
+				</div>
+				<!-- /row -->
+
+			</div>
+			<!-- /container -->
+
+		</div>
+		<!-- /Why us -->
+
+		<!-- Contact CTA -->
+		<div id="contact-cta" class="section">
+
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/cta2-background.jpg)"></div>
+			<!-- Backgound Image -->
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<h2 class="white-text">Contact Us</h2>
+						<p class="lead white-text">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant.</p>
+						<a class="main-button icon-button" href="#">Contact Us Now</a>
+					</div>
+
+				</div>
+				<!-- /row -->
+
+			</div>
+			<!-- /container -->
+
+		</div>
+		<!-- /Contact CTA -->
+
+		<!-- Footer -->
+		<footer id="footer" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- footer logo -->
+					<div class="col-md-6">
+						<div class="footer-logo">
+							<a class="logo" href="index.html">
+								<img src="{% static 'affiliate/img/logo.png' %}" alt="logo">
+							</a>
+						</div>
+					</div>
+					<!-- footer logo -->
+
+					<!-- footer nav -->
+					<div class="col-md-6">
+						<ul class="footer-nav">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Courses</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+					<!-- /footer nav -->
+
+				</div>
+				<!-- /row -->
+
+				<!-- row -->
+				<div id="bottom-footer" class="row">
+
+					<!-- social -->
+					<div class="col-md-4 col-md-push-8">
+						<ul class="footer-social">
+							<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
+							<li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+					<!-- /social -->
+
+					<!-- copyright -->
+					<div class="col-md-8 col-md-pull-4">
+						<div class="footer-copyright">
+							<span>&copy; Copyright 2018. All Rights Reserved. | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com">Colorlib</a></span>
+						</div>
+					</div>
+					<!-- /copyright -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- /container -->
+
+		</footer>
+		<!-- /Footer -->
+
+		<!-- preloader -->
+		<div id='preloader'><div class='preloader'></div></div>
+		<!-- /preloader -->
+
+
+		<!-- jQuery Plugins -->
+		<script type="text/javascript" src="{% static 'affiliate/js/jquery.min.js' %}"></script>
+		<script type="text/javascript" src="{% static 'affiliatejs/bootstrap.min.js' %}"></script>
+		<script type="text/javascript" src="{% static 'affiliate/js/main.js' %}"></script>
+
+	</body>
+</html>
