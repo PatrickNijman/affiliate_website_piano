@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-0sfy3%-+fn9b=)8hraoes#buczo866&ru$d%*s+@zk(anees@v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['affiliate-piano-for-adults.azurewebsites.net/']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
