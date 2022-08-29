@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Affiliate-piano-for-adults'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AFDC0180F76641528C3A74D272BA02C1 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CCEEC02FACEF4E4EB7B0D9CE9CE55260 }}
